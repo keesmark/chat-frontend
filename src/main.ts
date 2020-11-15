@@ -6,6 +6,7 @@ import store from "./store";
 import ApolloProvider from "@/vue-apollo";
 import "@/assets/tailwind.css";
 import VueApollo from "vue-apollo";
+import '@/assets/tailwind.css';
 
 Vue.config.productionTip = false;
 Vue.use(VueApollo);
